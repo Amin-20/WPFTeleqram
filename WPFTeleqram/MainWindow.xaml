@@ -1,0 +1,16 @@
+﻿<Window x:Class="WPFTeleqram.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTeleqram"
+        mc:Ignorable="d"
+        Title="Telegam" Height="636" Width="1006">
+    <Grid>
+        <Grid.RowDefinitions >
+            <RowDefinition  Height="69*"/>
+            <RowDefinition Height="551*"/>
+        </Grid.RowDefinitions>
+        <Image Source="Images/Telegram big icon.png" Margin="4,10,931,0"/>
+    </Grid>
+</Window>
