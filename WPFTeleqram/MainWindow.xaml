@@ -26,6 +26,10 @@
         <Label Content="VM" FontSize="18" Foreground="White" Canvas.Right="10" Canvas.Left="778" Canvas.Top="11" ></Label>
         <TextBlock  Width="2" Height="580"   Background="#D8D8D8 " Canvas.Left="272" Canvas.Top="55" />
         <TextBlock  Width="1006" Height="1"  Background="#D8D8D8 "  Canvas.Top="110" ></TextBlock>
+        <Image Source="Images/searchh.png" Canvas.Right="10" Height="21" Canvas.Left="10" Width="20"  Canvas.Top="75" HorizontalAlignment="Center" VerticalAlignment="Top" ></Image>
+        <TextBox MouseUp="searchTxtB_MouseLeftButtonUp"  Name="searchTxtB" Foreground="#D8D8D8" Text="Search" FontSize="16" Canvas.Left="39" Canvas.Top="75"  Width="230" Height="28" BorderThickness="0" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBox>
+        <Label Content="Resent" FontSize="13" FontWeight="Bold" Foreground="Gray" Canvas.Right="10" Canvas.Left="10" Canvas.Top="120" HorizontalAlignment="Center" VerticalAlignment="Top" ></Label>
+        <Image Source="Images/arrow.png" Canvas.Right="10" Height="38" Canvas.Left="245" Width="13"  Canvas.Top="127" HorizontalAlignment="Center" VerticalAlignment="Top" ></Image>
 
 
 

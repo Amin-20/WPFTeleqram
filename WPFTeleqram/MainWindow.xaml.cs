@@ -21,11 +21,18 @@ namespace WPFTeleqram
     /// </summary>
     public partial class MainWindow : Window
     {
-   
+
         public MainWindow()
         {
             InitializeComponent();
-            
+
+        }
+
+      
+     
+        private void searchTxtB_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            searchTxtB.Text = searchTxtB.Text.Replace("Search", "");
         }
     }
 }
