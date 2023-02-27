@@ -28,8 +28,6 @@ namespace WPFTeleqram
 
         }
 
-      
-     
         private void searchTxtB_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
         {
             searchTxtB.Text = searchTxtB.Text.Replace("Search", "");
