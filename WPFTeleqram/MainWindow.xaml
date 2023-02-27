@@ -6,11 +6,13 @@
         xmlns:local="clr-namespace:WPFTeleqram"
         mc:Ignorable="d"
         Title="Telegam" Height="636" Width="1006">
-    <Grid>
-        <Grid.RowDefinitions >
-            <RowDefinition  Height="69*"/>
-            <RowDefinition Height="551*"/>
-        </Grid.RowDefinitions>
-        <Image Source="Images/Telegram big icon.png" Margin="4,10,931,0"/>
-    </Grid>
+    <Canvas>
+
+        <Image Source="Images/Telegram small icon.png" Height="40" Canvas.Left="12" Canvas.Top="8" Width="50" HorizontalAlignment="Left" VerticalAlignment="Center"  />
+        <Label Content="Telegram" FontSize="20" FontWeight="Bold" Canvas.Left="50" Canvas.Top="10" HorizontalAlignment="Left" VerticalAlignment="Center" ></Label>
+
+
+
+
+    </Canvas>
 </Window>
