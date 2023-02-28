@@ -126,25 +126,22 @@
                Canvas.Top="64" HorizontalAlignment="Center" VerticalAlignment="Top" ></Label>
 
         <Button Height="55" 
-                Width="274" 
+                Width="271" 
                 Canvas.Top="155"
                 Background="White"
-                BorderThickness="0,0,2,0"
-                BorderBrush="DarkBlue"
+                BorderThickness="0"
                 >
-            <Label FontSize="18" Width="190">
+            <Label FontSize="18" Width="160">
                 Allisa Porshe
             </Label>
-          
+
         </Button>
         <Ellipse Height="41"
-                     Width="41"
-                     >
+                 Width="41" HorizontalAlignment="Left" Canvas.Top="163" VerticalAlignment="Center" Canvas.Left="10"
+                 >
             <Ellipse.Fill>
                 <ImageBrush ImageSource="Images/cat.jpg"
-                                Stretch="Fill">
-
-                </ImageBrush>
+                            Stretch="Fill"></ImageBrush>
             </Ellipse.Fill>
         </Ellipse>
     </Canvas>
