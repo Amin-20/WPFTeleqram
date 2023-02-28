@@ -10,7 +10,8 @@
         AllowsTransparency="True"
         WindowStartupLocation="CenterScreen"
         WindowStyle="None"
-        Background="Transparent"
+        Background="Transparent" 
+        Icon="/Telegram small icon.png"
         >
 
     <Canvas >
@@ -124,6 +125,27 @@
                Canvas.Left="341" 
                Canvas.Top="64" HorizontalAlignment="Center" VerticalAlignment="Top" ></Label>
 
+        <Button Height="55" 
+                Width="274" 
+                Canvas.Top="155"
+                Background="White"
+                BorderThickness="0,0,2,0"
+                BorderBrush="DarkBlue"
+                >
+            <Label FontSize="18" Width="190">
+                Allisa Porshe
+            </Label>
+          
+        </Button>
+        <Ellipse Height="41"
+                     Width="41"
+                     >
+            <Ellipse.Fill>
+                <ImageBrush ImageSource="Images/cat.jpg"
+                                Stretch="Fill">
 
+                </ImageBrush>
+            </Ellipse.Fill>
+        </Ellipse>
     </Canvas>
 </Window>
